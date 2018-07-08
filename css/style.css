@@ -239,8 +239,9 @@ li {
 }
 /* you can ignore this ones */
 ul {
+    
   padding: 0;
-  margin: 0 0 50px;
+  margin: 0 10px 50px 30px;
 }
 ul:after {
   content: "";
@@ -251,8 +252,8 @@ ul:after {
 li {
   position: relative;
   float: left;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   margin: 5px;
   padding: 0;
   list-style: none;
