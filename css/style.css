@@ -317,7 +317,21 @@ p {
   margin: 0 auto;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.container {
+  width: 300 !important;
+  margin: 0 auto;
+}  
+}
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+.container {
+  width: 100 !important;
+  margin: 0 auto;
+}
+}
 
 
 header {
