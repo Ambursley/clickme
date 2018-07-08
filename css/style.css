@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url("https://use.typekit.net/zpj1adb.css");
+
 /* the important bits */
 li {
   -webkit-perspective: 400px;
@@ -16,7 +17,7 @@ li {
   left: 0;
   border-radius: 4px;
   pointer-events: none;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #6621E9;
 }
 
 .in-top .info {
@@ -304,7 +305,11 @@ h1 {
 }
 
 h3 {
-  font-family: 'Bree Serif', serif;
+  font-family: "proxima-nova", sans-serif;
+}
+
+p {
+    font-family: "proxima-nova", sans-serif;
 }
 
 .container {
@@ -312,25 +317,11 @@ h3 {
   margin: 0 auto;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-.container {
-  width: 320px !important;
-  margin: 0 auto;
-}
-}
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-.container {
-  width: 760px !important;
-  margin: 0 auto;
-}
-}
 
 
 header {
-  font-family: 'Bree Serif', serif;
+  font-family: "proxima-nova", sans-serif;
   text-align: center;
   margin: 50px 0 25px;
   color: #34495E;
